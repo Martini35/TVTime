@@ -1,0 +1,14 @@
+﻿  Baza_danych.cpp
+  Draw.cpp
+  Okno.cpp
+  Przyciski.cpp
+  TVTime.cpp
+C:\Users\Martini\Desktop\TVTime\TVTime\TVTime.cpp(27,15): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "sql::Statement"
+  C:\Users\Martini\Desktop\TVTime\TVTime\mysql-connector-c++-8.4.0-64\include\jdbc\cppconn\connection.h(156,7):
+  zobacz deklarację „sql::Statement”
+  
+C:\Users\Martini\Desktop\TVTime\TVTime\TVTime.cpp(38,9): warning C4150: usunięcie wskaźnika do niekompletnego typu "sql::Statement"; brak wywołania destruktora
+  C:\Users\Martini\Desktop\TVTime\TVTime\mysql-connector-c++-8.4.0-64\include\jdbc\cppconn\connection.h(156,7):
+  zobacz deklarację „sql::Statement”
+  
+  Generowanie kodu...
