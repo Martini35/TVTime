@@ -12,6 +12,7 @@ void Okno::Eventy() {
 			okno.close();
 			zamknij = true;
 		}
+		zawartosc.Klikniecie(okno, event);
 	}
 }
 

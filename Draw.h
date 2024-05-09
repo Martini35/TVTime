@@ -15,6 +15,8 @@ private:
 	void TworzenieNawigacja();
 	void TworzenieFilmy();
 
+	int aktualna_strona = 1;
+
 public:
 	Draw();
 	~Draw();
@@ -22,4 +24,5 @@ public:
 	void WyswietlOpis(RenderWindow& okno);
 	void WyswietlNawigacja(RenderWindow& okno);
 	void WyswietlFilmy(RenderWindow& okno);
+	void Klikniecie(RenderWindow& okno, Event eve);
 };
