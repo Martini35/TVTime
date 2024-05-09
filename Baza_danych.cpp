@@ -25,3 +25,7 @@ Baza_danych::~Baza_danych() {
         delete con;
     }
 }
+
+void Baza_danych::Pobierz_dane(string zapytanie) {
+
+}

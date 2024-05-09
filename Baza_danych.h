@@ -22,9 +22,14 @@ private:
     string password = "";
     string database = "filmy";
 
+    int indeks = 0;
+    string tytu³ = "", gatunek = "";
+    float ocena = 0.0;
+    bool czyObrajrzane = false;
+
 public:
     Baza_danych();
     ~Baza_danych();
-
+    void Pobierz_dane(string zapytanie);
 };
 
