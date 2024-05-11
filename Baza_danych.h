@@ -4,6 +4,10 @@
 #include <jdbc/cppconn/driver.h>
 #include <jdbc/cppconn/exception.h>
 #include <cppconn/resultset.h>
+#include <jdbc/cppconn/statement.h>
+#include <sstream>
+#include <iomanip>
+#include <string>
 
 using namespace std;
 using namespace sql;
@@ -22,14 +26,18 @@ private:
     string password = "";
     string database = "filmy";
 
-    int indeks = 0;
+    int indeks = 0, czyObejrzane = 0;
     string tytu³ = "", gatunek = "";
     float ocena = 0.0;
-    bool czyObrajrzane = false;
 
 public:
     Baza_danych();
     ~Baza_danych();
     void Pobierz_dane(string zapytanie);
+    int GetIndeks();
+    string GetTytu³();
+    string GetGatunek();
+    float GetOcena();
+    int GetCzyObejrzane();
 };
 

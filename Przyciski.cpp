@@ -34,6 +34,18 @@ void Przyciski::DodajNapis(string nap, int zacz) {
 	napis.setString(nap);
 }
 
+void Przyciski::DodajNapis(string nap, int zacz, int wielkosc) {
+
+	font.loadFromFile("Chunkfive Ex.ttf");
+	napis.setFont(font);
+	napis.setCharacterSize(wielkosc);
+	napis.setFillColor(Color::White);
+	napis.setOutlineColor(Color::Black);
+	napis.setOutlineThickness(3);
+	napis.setPosition(xn + zacz, yn + 2);
+	napis.setString(String::fromUtf8(nap.begin(), nap.end()));
+}
+
 void Przyciski::RysujPrzycisk(RenderWindow& okno) {
 
 	okno.draw(shape);

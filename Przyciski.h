@@ -18,6 +18,7 @@ public:
 	Przyciski(float x, float y, float sx, float sy, int R, int G, int B, float obwodka);
 	bool CzyMyszNadPrzyciskiem(Vector2f myszPoz);
 	void DodajNapis(string nap, int zacz);
+	void DodajNapis(string nap, int zacz, int wielkosc);
 	void RysujPrzycisk(RenderWindow& okno);
 	void ZmienKolor(int r, int g, int b);;
 	void ZmienNapis(string nap);

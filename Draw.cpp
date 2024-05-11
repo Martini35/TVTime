@@ -49,7 +49,11 @@ void Draw::TworzenieNawigacja() {
 void Draw::TworzenieFilmy() {
 	int ay = 90;
 	for (int i = 0; i < 10; i++) {
-		filmy[i] = Przyciski(10, ay, 1050, 40, 0, 255, 0, 0);
+		filmy_id[i] = Przyciski(10, ay, 70, 40, 0, 255, 0, 0);
+		filmy_tytu³[i] = Przyciski(80, ay, 460, 40, 0, 255, 0, 0);
+		filmy_ocena[i] = Przyciski(540, ay, 160, 40, 0, 255, 0, 0);
+		filmy_gatunek[i] = Przyciski(700, ay, 310, 40, 0, 255, 0, 0);
+		filmy_czyObejrzane[i] = Przyciski(1010, ay, 50, 40, 0, 255, 0, 0);
 		ay += 50;
 	}
 }
@@ -69,7 +73,11 @@ void Draw::WyswietlNawigacja(RenderWindow& okno) {
 
 void Draw::WyswietlFilmy(RenderWindow& okno) {
 	for (int i = 0; i < 10; i++) {
-		filmy[i].RysujPrzycisk(okno);
+		filmy_id[i].RysujPrzycisk(okno);
+		filmy_tytu³[i].RysujPrzycisk(okno);
+		filmy_ocena[i].RysujPrzycisk(okno);
+		filmy_gatunek[i].RysujPrzycisk(okno);
+		filmy_czyObejrzane[i].RysujPrzycisk(okno);
 	}
 }
 
@@ -88,11 +96,19 @@ void Draw::Klikniecie(RenderWindow& okno, Event eve) {
 		}
 	}
 	for (int i = 0; i < 10; i++) {
-		if (filmy[i].CzyMyszNadPrzyciskiem(mousePositionFloat)) {
-			filmy[i].ZmienKolor(255, 0, 0);
+		if (filmy_id[i].CzyMyszNadPrzyciskiem(mousePositionFloat) || filmy_tytu³[i].CzyMyszNadPrzyciskiem(mousePositionFloat) || filmy_ocena[i].CzyMyszNadPrzyciskiem(mousePositionFloat) || filmy_gatunek[i].CzyMyszNadPrzyciskiem(mousePositionFloat) || filmy_czyObejrzane[i].CzyMyszNadPrzyciskiem(mousePositionFloat)) {
+			filmy_id[i].ZmienKolor(255, 0, 0);
+			filmy_tytu³[i].ZmienKolor(255, 0, 0);
+			filmy_ocena[i].ZmienKolor(255, 0, 0);
+			filmy_gatunek[i].ZmienKolor(255, 0, 0);
+			filmy_czyObejrzane[i].ZmienKolor(255, 0, 0);
 		}
 		else {
-			filmy[i].ZmienKolor(0, 255, 0);
+			filmy_id[i].ZmienKolor(0, 255, 0);
+			filmy_tytu³[i].ZmienKolor(0, 255, 0);
+			filmy_ocena[i].ZmienKolor(0, 255, 0);
+			filmy_gatunek[i].ZmienKolor(0, 255, 0);
+			filmy_czyObejrzane[i].ZmienKolor(0, 255, 0);
 		}
 	}
 	for (int i = 0; i < 14; i++) {
@@ -109,14 +125,33 @@ void Draw::Klikniecie(RenderWindow& okno, Event eve) {
 	for(int i = 0; i < 14; i++){
 		if (nawigacja[i].CzyMyszNadPrzyciskiem(mousePositionFloat)) {
 			if (eve.type == Event::MouseButtonPressed && eve.mouseButton.button == Mouse::Left) {
+				if (i > 0 && i < 13) {
+					aktualna_strona = i;
+				}
 				if (i == 0 && aktualna_strona != 1) {
 					aktualna_strona--;
 				}
 				if (i == 13 && aktualna_strona != 12) {
 					aktualna_strona++;
+					OdczytFilmu();
 				}
 			}
 		}
 	}
-	
+}
+
+void Draw::OdczytFilmu() {
+	stringstream zapytanie;
+	string zapytanie_str;
+	for (int i = 0; i < 10; i++) {
+		zapytanie << "SELECT * FROM filmy WHERE id = " << i + 1;
+		zapytanie_str = zapytanie.str();
+		film[i].Pobierz_dane(zapytanie_str);
+		filmy_id[i].DodajNapis(to_string(film[i].GetIndeks()), 10, 30);
+		filmy_tytu³[i].DodajNapis(film[i].GetTytu³(), 50, 30);
+		filmy_ocena[i].DodajNapis(to_string(film[i].GetOcena()), 10, 30);
+		filmy_gatunek[i].DodajNapis(film[i].GetGatunek(), 30, 30);
+		filmy_czyObejrzane[i].DodajNapis(to_string(film[i].GetCzyObejrzane()), 15, 30);
+		zapytanie.str("");
+	}
 }

@@ -27,5 +27,35 @@ Baza_danych::~Baza_danych() {
 }
 
 void Baza_danych::Pobierz_dane(string zapytanie) {
+    string query = zapytanie;
+    stmt = con->createStatement();
+    res = stmt->executeQuery(query);
+    while(res->next()){
+        indeks = stoi(res->getString("ID"));
+        tytu³ = res->getString("Tytul");
+        gatunek = res->getString("Gatunek");
+        ocena = stof(res->getString("Ocena"));
+        czyObejrzane = stoi(res->getString("Czy_obejrzane"));
+    }
 
+}
+
+int Baza_danych::GetIndeks(){
+    return indeks;
+}
+
+string Baza_danych::GetTytu³(){
+    return tytu³;
+}
+
+string Baza_danych::GetGatunek(){
+    return gatunek;
+}
+
+float Baza_danych::GetOcena(){
+    return ocena;
+}
+
+int Baza_danych::GetCzyObejrzane(){
+    return czyObejrzane;
 }
