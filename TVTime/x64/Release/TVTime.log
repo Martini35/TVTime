@@ -1,0 +1,13 @@
+﻿  Draw.cpp
+C:\Users\marci\Desktop\TVTime\TVTime\Draw.cpp(30,28): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\marci\Desktop\TVTime\TVTime\Draw.cpp(52,31): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\marci\Desktop\TVTime\TVTime\Draw.cpp(53,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\marci\Desktop\TVTime\TVTime\Draw.cpp(54,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\marci\Desktop\TVTime\TVTime\Draw.cpp(55,38): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\marci\Desktop\TVTime\TVTime\Draw.cpp(56,43): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  Trwa generowanie kodu
+  0 of 307 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Zakończono generowanie kodu
+  TVTime.vcxproj -> C:\Users\marci\Desktop\TVTime\x64\Release\TVTime.exe

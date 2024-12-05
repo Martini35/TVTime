@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marci\\Desktop\\TVTime\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Baza_danych.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|solutionrelative:TVTime\\Baza_danych.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Baza_danych.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|solutionrelative:TVTime\\Baza_danych.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Draw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|solutionrelative:TVTime\\Draw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Draw.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|solutionrelative:TVTime\\Draw.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Okno.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|solutionrelative:TVTime\\Okno.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Okno.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|solutionrelative:TVTime\\Okno.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Przyciski.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|solutionrelative:TVTime\\Przyciski.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\TVTime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|solutionrelative:TVTime\\TVTime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Przyciski.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{768A2753-0F21-451A-93C0-88881DDF1537}|TVTime\\TVTime.vcxproj|solutionrelative:TVTime\\Przyciski.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 235,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TVTime.cpp",
+              "DocumentMoniker": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\TVTime.cpp",
+              "RelativeDocumentMoniker": "TVTime\\TVTime.cpp",
+              "ToolTip": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\TVTime.cpp",
+              "RelativeToolTip": "TVTime\\TVTime.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-07T14:52:52.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Okno.cpp",
+              "DocumentMoniker": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Okno.cpp",
+              "RelativeDocumentMoniker": "TVTime\\Okno.cpp",
+              "ToolTip": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Okno.cpp",
+              "RelativeToolTip": "TVTime\\Okno.cpp",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-07T15:33:09.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Draw.cpp",
+              "DocumentMoniker": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Draw.cpp",
+              "RelativeDocumentMoniker": "TVTime\\Draw.cpp",
+              "ToolTip": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Draw.cpp",
+              "RelativeToolTip": "TVTime\\Draw.cpp",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAAUBAACVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-07T15:33:09.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Baza_danych.cpp",
+              "DocumentMoniker": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Baza_danych.cpp",
+              "RelativeDocumentMoniker": "TVTime\\Baza_danych.cpp",
+              "ToolTip": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Baza_danych.cpp",
+              "RelativeToolTip": "TVTime\\Baza_danych.cpp",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-07T15:32:25.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Przyciski.cpp",
+              "DocumentMoniker": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Przyciski.cpp",
+              "RelativeDocumentMoniker": "TVTime\\Przyciski.cpp",
+              "ToolTip": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Przyciski.cpp",
+              "RelativeToolTip": "TVTime\\Przyciski.cpp",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAACEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-07T15:33:10.713Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 165,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Okno.h",
+              "DocumentMoniker": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Okno.h",
+              "RelativeDocumentMoniker": "TVTime\\Okno.h",
+              "ToolTip": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Okno.h",
+              "RelativeToolTip": "TVTime\\Okno.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-07T15:29:45.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Draw.h",
+              "DocumentMoniker": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Draw.h",
+              "RelativeDocumentMoniker": "TVTime\\Draw.h",
+              "ToolTip": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Draw.h",
+              "RelativeToolTip": "TVTime\\Draw.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-07T15:32:13.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Baza_danych.h",
+              "DocumentMoniker": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Baza_danych.h",
+              "RelativeDocumentMoniker": "TVTime\\Baza_danych.h",
+              "ToolTip": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Baza_danych.h",
+              "RelativeToolTip": "TVTime\\Baza_danych.h",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-07T15:30:09.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Przyciski.h",
+              "DocumentMoniker": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Przyciski.h",
+              "RelativeDocumentMoniker": "TVTime\\Przyciski.h",
+              "ToolTip": "C:\\Users\\marci\\Desktop\\TVTime\\TVTime\\Przyciski.h",
+              "RelativeToolTip": "TVTime\\Przyciski.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-07T15:29:25.263Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
